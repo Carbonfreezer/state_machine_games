@@ -12,7 +12,7 @@ In game development, state machines typically fall into two categories:
 
 ## The Five Approaches
 
-### `old_fashioned` – Enum + Match
+### `old_fashioned` – Enum + Match ⭐
 
 The simplest approach: a single struct holds all state data, and `update` uses `match` on an enum index. No traits, no heap, no indirection.
 
