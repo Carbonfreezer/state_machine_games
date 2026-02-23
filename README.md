@@ -66,7 +66,7 @@ The other variants exist on the spectrum and have their place, but these two rep
 ```toml
 [dependencies]
 enum_dispatch = "0.3"
-enum_map = "2"
+enum_map = "2.7"
 ```
 
 Note: `is_multiple_of` requires Rust nightly or 1.84+. Replace with `x % n == 0` for older compilers.
